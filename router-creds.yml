@@ -1,0 +1,7 @@
+# update these values accordingly
+api_username: admin
+api_password: arista123
+# if your user logs into the device and requires a separate enable
+# password in order to get into enable mode, you will need to put
+# enable password in here.
+enable_password: None
