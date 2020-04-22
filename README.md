@@ -126,7 +126,7 @@ elmo(eos-cli-migrate) % ./check-config.py -c ./cli-changes.csv -f sample-7010t-c
 
 **example: summary output**
 
-for very large configurations it can be difficult to see the individual commands which may be in use, which are deprecated.  the summary output mode of operation (`-s` argument) will generate a list of the commands in the configuration which are 
+for very large configurations it can be difficult to see the individual deprecated commands which are in use.  the summary output mode of operation (`-s` argument) will generate a shorter list of the depecated commands in the configuration as well as listing the lines in the configuration where the deprecated commands can be found.
 
 ``` text
 elmo(eos-cli-migrate) % ./check-config.py -s -c ./cli-changes.csv -f sample-7010t-config.txt 
